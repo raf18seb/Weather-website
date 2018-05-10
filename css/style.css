@@ -251,28 +251,29 @@ h2 {
         .first-screen .bg .header .header__social li {
           font-size: 0; }
           .first-screen .bg .header .header__social li a {
-            background: url("../images/social/facebook.png") no-repeat center;
+            background: url("../images/Social/facebook.png") no-repeat center;
             display: inline-block;
             height: 26px;
             width: 12px;
-            transition: 200ms; }
+            transition: 200ms;
+            padding: 5px 10px; }
             .first-screen .bg .header .header__social li a:hover {
-              background: url("../images/social/facebook2.png") no-repeat center;
+              background: url("../images/Social/facebook2.png") no-repeat center;
               transition: 200ms; }
             .first-screen .bg .header .header__social li a.header__social--instagram {
-              background: url("../images/social/instagram.png") no-repeat center;
+              background: url("../images/Social/instagram.png") no-repeat center;
               width: 26px;
               transition: 200ms; }
               .first-screen .bg .header .header__social li a.header__social--instagram:hover {
-                background: url("../images/social/instagram2.png") no-repeat center;
+                background: url("../images/Social/instagram2.png") no-repeat center;
                 transition: 200ms; }
             .first-screen .bg .header .header__social li a.header__social--tweeter {
-              background: url("../images/social/twitter.png") no-repeat center;
+              background: url("../images/Social/twitter.png") no-repeat center;
               height: 21px;
               width: 27px;
               transition: 200ms; }
               .first-screen .bg .header .header__social li a.header__social--tweeter:hover {
-                background: url("../images/social/twitter2.png") no-repeat center;
+                background: url("../images/Social/twitter2.png") no-repeat center;
                 transition: 200ms; }
   .first-screen .main-content {
     display: flex;
