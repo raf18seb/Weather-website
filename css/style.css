@@ -251,28 +251,28 @@ h2 {
         .first-screen .bg .header .header__social li {
           font-size: 0; }
           .first-screen .bg .header .header__social li a {
-            background: url("../images/facebook.png") no-repeat center;
+            background: url("../images/social/facebook.png") no-repeat center;
             display: inline-block;
             height: 26px;
             width: 12px;
             transition: 200ms; }
             .first-screen .bg .header .header__social li a:hover {
-              background: url("../images/facebook2.png") no-repeat center;
+              background: url("../images/social/facebook2.png") no-repeat center;
               transition: 200ms; }
             .first-screen .bg .header .header__social li a.header__social--instagram {
-              background: url("../images/instagram.png") no-repeat center;
+              background: url("../images/social/instagram.png") no-repeat center;
               width: 26px;
               transition: 200ms; }
               .first-screen .bg .header .header__social li a.header__social--instagram:hover {
-                background: url("../images/instagram2.png") no-repeat center;
+                background: url("../images/social/instagram2.png") no-repeat center;
                 transition: 200ms; }
             .first-screen .bg .header .header__social li a.header__social--tweeter {
-              background: url("../images/twitter.png") no-repeat center;
+              background: url("../images/social/twitter.png") no-repeat center;
               height: 21px;
               width: 27px;
               transition: 200ms; }
               .first-screen .bg .header .header__social li a.header__social--tweeter:hover {
-                background: url("../images/twitter2.png") no-repeat center;
+                background: url("../images/social/twitter2.png") no-repeat center;
                 transition: 200ms; }
   .first-screen .main-content {
     display: flex;
@@ -387,7 +387,7 @@ h2 {
           width: 100%;
           height: 40%; } }
       .first-screen .main-content .main-content__phone .img {
-        background: url("../images/phone first screen.png") no-repeat center;
+        background: url("../images/Phones/phone first screen.png") no-repeat center;
         background-size: contain;
         max-height: 631px;
         height: 90%; }
@@ -472,13 +472,13 @@ h2 {
         line-height: 30px;
         margin: 14px 0; }
     .features .center .features__boxes .boxes__item.boxes__item--first .item__img {
-      background: url("../images/Usability.png") no-repeat center;
+      background: url("../images/Perfect features/Usability.png") no-repeat center;
       background-size: contain; }
     .features .center .features__boxes .boxes__item.boxes__item--second .item__img {
-      background: url("../images/Parallax.png") no-repeat center;
+      background: url("../images/Perfect features/Parallax.png") no-repeat center;
       background-size: contain; }
     .features .center .features__boxes .boxes__item.boxes__item--third .item__img {
-      background: url("../images/Colors.png") no-repeat center;
+      background: url("../images/Perfect features/Colors.png") no-repeat center;
       background-size: contain; }
 
 .slider {
@@ -569,7 +569,7 @@ h2 {
         width: 100%;
         height: 300px; } }
     .screenshots .center .bigBox .phone .phone__img {
-      background: url("../images/test1.png") no-repeat center;
+      background: url("../images/Phones/phone circles text cloudy.png") no-repeat center;
       width: 100%;
       height: 100%;
       background-size: contain; }
@@ -653,7 +653,7 @@ h2 {
       .screenshots .center .bigBox.bigBox--second {
         flex-direction: column; } }
     .screenshots .center .bigBox.bigBox--second .phone .phone__img {
-      background: url("../images/test2.png") no-repeat center;
+      background: url("../images/Phones/phone circles text sunny.png") no-repeat center;
       background-size: contain; }
     @media all and (max-width: 600px) {
       .screenshots .center .bigBox.bigBox--second .description .description__box .descripion__imgAndText {
@@ -670,7 +670,7 @@ h2 {
           width: 37.2px;
           height: 37.2px; } }
   .screenshots .center .bigBox.bigBox--third .phone .phone__img {
-    background: url("../images/test3.png") no-repeat center;
+    background: url("../images/Phones/phone circles text rainy.png") no-repeat center;
     background-size: contain; }
   .screenshots .center .bigBox.bigBox--third .description .description__box .descripion__imgAndText .description__img {
     width: 137px;
@@ -792,7 +792,7 @@ h2 {
   flex-direction: column;
   justify-content: space-around;
   background-color: #648cff;
-  background-image: url("../images/phoneMIDDLE.png"), url("../images/phoneLEFT.png"), url("../images/phoneRIGHT.png");
+  background-image: url("../images/Phones/phoneMIDDLE.png"), url("../images/Phones/phoneLEFT.png"), url("../images/Phones/phoneRIGHT.png");
   background-position: 73% 200px, 60% 270px, 86% 270px;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -864,11 +864,11 @@ h2 {
             height: 36px;
             width: 117.6px; } }
       .download .center .download__buttons .download__buttons--apple {
-        background: url("../images/appstore.png") no-repeat center;
+        background: url("../images/Download buttons/appstore.png") no-repeat center;
         background-size: cover; }
       .download .center .download__buttons .download__buttons--android {
         margin: 0 0 0 10px;
-        background: url("../images/google play.png") no-repeat center;
+        background: url("../images/Download buttons/google play.png") no-repeat center;
         background-size: cover; }
         @media all and (max-width: 650px) {
           .download .center .download__buttons .download__buttons--android {
@@ -995,28 +995,28 @@ h2 {
           justify-content: space-around;
           font-size: 0; }
           .footer .footer__top .header .header__social li a {
-            background: url("../images/facebook2.png") no-repeat center;
+            background: url("../images/Social/facebook2.png") no-repeat center;
             display: inline-block;
             height: 26px;
             width: 12px;
             transition: 200ms; }
             .footer .footer__top .header .header__social li a:hover {
-              background: url("../images/facebook.png") no-repeat center;
+              background: url("../images/Social/facebook.png") no-repeat center;
               transition: 200ms; }
             .footer .footer__top .header .header__social li a.header__social--instagram {
-              background: url("../images/instagram2.png") no-repeat center;
+              background: url("../images/Social/instagram2.png") no-repeat center;
               width: 26px;
               transition: 200ms; }
               .footer .footer__top .header .header__social li a.header__social--instagram:hover {
-                background: url("../images/instagram.png") no-repeat center;
+                background: url("../images/Social/instagram.png") no-repeat center;
                 transition: 200ms; }
             .footer .footer__top .header .header__social li a.header__social--tweeter {
-              background: url("../images/twitter2.png") no-repeat center;
+              background: url("../images/Social/twitter2.png") no-repeat center;
               height: 21px;
               width: 27px;
               transition: 200ms; }
               .footer .footer__top .header .header__social li a.header__social--tweeter:hover {
-                background: url("../images/twitter.png") no-repeat center;
+                background: url("../images/Social/twitter.png") no-repeat center;
                 transition: 200ms; }
   @media all and (max-width: 790px) {
     .footer .align__rights {
