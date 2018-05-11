@@ -54,7 +54,9 @@ h2 {
   height: 24px;
   width: 50px;
   z-index: 3321312;
-  cursor: pointer; }
+  cursor: pointer;
+  background: none;
+  border: none; }
   @media all and (max-width: 790px) {
     .btn__menu {
       display: block; } }
@@ -62,7 +64,8 @@ h2 {
     height: 2px;
     background: #fff;
     transition: 200ms;
-    position: absolute; }
+    position: absolute;
+    left: 0; }
     .btn__menu .btn__menu__line.btn__menu__line--first {
       width: 100%;
       top: 0;
@@ -81,7 +84,7 @@ h2 {
       width: 0;
       top: 0;
       left: 100%;
-      transition-delay: 0; }
+      transition-delay: 0ms; }
     .btn__menu .btn__menu__line.btn__menu__line--fifth {
       width: 0;
       top: 50%;
@@ -112,6 +115,8 @@ h2 {
   .btn__menu:hover .btn__menu__line.btn__menu__line--sixth {
     width: 100%;
     transition-delay: 480ms; }
+  .btn__menu:focus {
+    border: 2px solid black; }
 
 .hamburgerMenu {
   display: none;

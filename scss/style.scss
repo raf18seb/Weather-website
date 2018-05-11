@@ -77,6 +77,8 @@ h2 {
   width: 50px;
   z-index: 3321312;
   cursor: pointer;
+  background: none;
+  border: none;
   @media all and (max-width: 790px) {
     display: block;
   }
@@ -85,6 +87,7 @@ h2 {
     background: #fff;
     transition: 200ms;
     position: absolute;
+    left: 0;
     &.btn__menu__line--first {
       width: 100%;
       top: 0;
@@ -106,7 +109,7 @@ h2 {
       width: 0;
       top: 0;
       left: 100%;
-      transition-delay: 0;
+      transition-delay: 0ms;
     }
     &.btn__menu__line--fifth {
       width: 0;
@@ -150,6 +153,9 @@ h2 {
         transition-delay: 480ms;
       }
     }
+  }
+  &:focus {
+    border: 2px solid black;
   }
 }
 
