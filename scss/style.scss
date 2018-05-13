@@ -36,7 +36,7 @@ a, :hover, :before, :after {
   padding: 0 2%;
 }
 
-h1 {
+h1, h2 {
   margin: 0;
   padding: 130px 0 0 0;
   text-align: center;
@@ -51,7 +51,7 @@ h1 {
   }
 }
 
-h2 {
+h3 {
   font-size: 24px;
   color: #353854;
   font-weight: 400;
@@ -393,6 +393,9 @@ h2 {
         }
         .text1 {
           margin: 0;
+          padding: 0;
+          text-transform: none;
+          text-align: left;
           font-size: 60px;
           color: #fff;
           font-weight: 600;
@@ -408,6 +411,7 @@ h2 {
           }
           @media all and (max-width: 650px) {
             font-size: 26px;
+            text-align: center;
           }
           @media all and (max-width: 500px) {
             font-size: 20px;
@@ -496,7 +500,7 @@ h2 {
       //   height: 90%;
       // }
       .img {
-        background: url("../images/Phones/phone first screen.png") no-repeat center;
+        background: url("../images/Phones/phoneFirstScreen.png") no-repeat center;
         background-size: contain;
         max-height: 631px;
         height: 90%;
@@ -726,7 +730,7 @@ h2 {
           height: 300px;
         }
         .phone__img {
-          background: url("../images/Phones/phone circles text cloudy.png") no-repeat center;
+          background: url("../images/Phones/phoneCirclesTextCloudy.png") no-repeat center;
           width: 100%;
           height: 100%;
           background-size: contain;
@@ -772,7 +776,7 @@ h2 {
                 margin: 0;
               }
             }
-            h1 {
+            .description__text1 {
               padding: 0;
               text-align: left;
               margin-bottom: 20px;
@@ -789,10 +793,14 @@ h2 {
               }
             }
           }
-          h2 {
+          .description__text2 {
             max-width: 500px;
             margin: 0;
             margin-bottom: 37px;
+            font-size: 24px;
+            color: #353854;
+            font-weight: 400;
+            line-height: 36px;
             @media all and (max-width: 1140px) {
               font-size: 18px;
               line-height: 30px;
@@ -844,7 +852,7 @@ h2 {
         }
         .phone {
           .phone__img {
-            background: url("../images/Phones/phone circles text sunny.png") no-repeat center;
+            background: url("../images/Phones/phoneCirclesTextSunny.png") no-repeat center;
             background-size: contain;
           }
         }
@@ -873,7 +881,7 @@ h2 {
       &.bigBox--third {
         .phone {
           .phone__img {
-            background: url("../images/Phones/phone circles text rainy.png") no-repeat center;
+            background: url("../images/Phones/phoneCirclesTextRainy.png") no-repeat center;
             background-size: contain;
           }
         }
@@ -885,7 +893,7 @@ h2 {
                 height: 63px;
                 @media all and (max-width: 1140px) {
                   width: 109.6px;
-                  height: 50.4;
+                  height: 50.4px;
                 }
                 @media all and (max-width: 790px) {
                   width: 82.2px;
@@ -1116,7 +1124,7 @@ h2 {
         @media all and (max-width: 650px) {
           margin: 0 10px;
         }
-        background: url("../images/Download buttons/google play.png") no-repeat center;
+        background: url("../images/Download buttons/googlePlay.png") no-repeat center;
         background-size: cover;
       }
     }

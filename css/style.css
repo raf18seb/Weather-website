@@ -19,7 +19,7 @@ a, :hover, :before, :after {
   margin: 0 auto;
   padding: 0 2%; }
 
-h1 {
+h1, h2 {
   margin: 0;
   padding: 130px 0 0 0;
   text-align: center;
@@ -28,12 +28,12 @@ h1 {
   color: #648cff;
   line-height: 36px; }
   @media all and (max-width: 790px) {
-    h1 {
+    h1, h2 {
       padding: 70px 0 0 0;
       font-size: 30px;
       line-height: 30px; } }
 
-h2 {
+h3 {
   font-size: 24px;
   color: #353854;
   font-weight: 400;
@@ -314,6 +314,9 @@ h2 {
             margin: 0 auto; } }
         .first-screen .main-content .main-content__info .contener1 .text1 {
           margin: 0;
+          padding: 0;
+          text-transform: none;
+          text-align: left;
           font-size: 60px;
           color: #fff;
           font-weight: 600;
@@ -329,7 +332,8 @@ h2 {
               font-size: 34px; } }
           @media all and (max-width: 650px) {
             .first-screen .main-content .main-content__info .contener1 .text1 {
-              font-size: 26px; } }
+              font-size: 26px;
+              text-align: center; } }
           @media all and (max-width: 500px) {
             .first-screen .main-content .main-content__info .contener1 .text1 {
               font-size: 20px; } }
@@ -393,7 +397,7 @@ h2 {
           width: 100%;
           height: 40%; } }
       .first-screen .main-content .main-content__phone .img {
-        background: url("../images/Phones/phone first screen.png") no-repeat center;
+        background: url("../images/Phones/phoneFirstScreen.png") no-repeat center;
         background-size: contain;
         max-height: 631px;
         height: 90%; }
@@ -575,7 +579,7 @@ h2 {
         width: 100%;
         height: 300px; } }
     .screenshots .center .bigBox .phone .phone__img {
-      background: url("../images/Phones/phone circles text cloudy.png") no-repeat center;
+      background: url("../images/Phones/phoneCirclesTextCloudy.png") no-repeat center;
       width: 100%;
       height: 100%;
       background-size: contain; }
@@ -617,32 +621,36 @@ h2 {
         @media all and (max-width: 600px) {
           .screenshots .center .bigBox .description .description__box .descripion__imgAndText .description__img {
             margin: 0; } }
-      .screenshots .center .bigBox .description .description__box .descripion__imgAndText h1 {
+      .screenshots .center .bigBox .description .description__box .descripion__imgAndText .description__text1 {
         padding: 0;
         text-align: left;
         margin-bottom: 20px; }
         @media all and (max-width: 1140px) {
-          .screenshots .center .bigBox .description .description__box .descripion__imgAndText h1 {
+          .screenshots .center .bigBox .description .description__box .descripion__imgAndText .description__text1 {
             font-size: 24px;
             margin-bottom: 15px; } }
         @media all and (max-width: 790px) {
-          .screenshots .center .bigBox .description .description__box .descripion__imgAndText h1 {
+          .screenshots .center .bigBox .description .description__box .descripion__imgAndText .description__text1 {
             font-size: 19px;
             margin-bottom: 5px; } }
         @media all and (max-width: 600px) {
-          .screenshots .center .bigBox .description .description__box .descripion__imgAndText h1 {
+          .screenshots .center .bigBox .description .description__box .descripion__imgAndText .description__text1 {
             margin: 0; } }
-      .screenshots .center .bigBox .description .description__box h2 {
+      .screenshots .center .bigBox .description .description__box .description__text2 {
         max-width: 500px;
         margin: 0;
-        margin-bottom: 37px; }
+        margin-bottom: 37px;
+        font-size: 24px;
+        color: #353854;
+        font-weight: 400;
+        line-height: 36px; }
         @media all and (max-width: 1140px) {
-          .screenshots .center .bigBox .description .description__box h2 {
+          .screenshots .center .bigBox .description .description__box .description__text2 {
             font-size: 18px;
             line-height: 30px;
             margin-bottom: 15px; } }
         @media all and (max-width: 790px) {
-          .screenshots .center .bigBox .description .description__box h2 {
+          .screenshots .center .bigBox .description .description__box .description__text2 {
             font-size: 14px;
             line-height: 26px;
             margin-bottom: 5px; } }
@@ -659,7 +667,7 @@ h2 {
       .screenshots .center .bigBox.bigBox--second {
         flex-direction: column; } }
     .screenshots .center .bigBox.bigBox--second .phone .phone__img {
-      background: url("../images/Phones/phone circles text sunny.png") no-repeat center;
+      background: url("../images/Phones/phoneCirclesTextSunny.png") no-repeat center;
       background-size: contain; }
     @media all and (max-width: 600px) {
       .screenshots .center .bigBox.bigBox--second .description .description__box .descripion__imgAndText {
@@ -676,7 +684,7 @@ h2 {
           width: 37.2px;
           height: 37.2px; } }
   .screenshots .center .bigBox.bigBox--third .phone .phone__img {
-    background: url("../images/Phones/phone circles text rainy.png") no-repeat center;
+    background: url("../images/Phones/phoneCirclesTextRainy.png") no-repeat center;
     background-size: contain; }
   .screenshots .center .bigBox.bigBox--third .description .description__box .descripion__imgAndText .description__img {
     width: 137px;
@@ -684,7 +692,7 @@ h2 {
     @media all and (max-width: 1140px) {
       .screenshots .center .bigBox.bigBox--third .description .description__box .descripion__imgAndText .description__img {
         width: 109.6px;
-        height: 50.4; } }
+        height: 50.4px; } }
     @media all and (max-width: 790px) {
       .screenshots .center .bigBox.bigBox--third .description .description__box .descripion__imgAndText .description__img {
         width: 82.2px;
@@ -874,7 +882,7 @@ h2 {
         background-size: cover; }
       .download .center .download__buttons .download__buttons--android {
         margin: 0 0 0 10px;
-        background: url("../images/Download buttons/google play.png") no-repeat center;
+        background: url("../images/Download buttons/googlePlay.png") no-repeat center;
         background-size: cover; }
         @media all and (max-width: 650px) {
           .download .center .download__buttons .download__buttons--android {

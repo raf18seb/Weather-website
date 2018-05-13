@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="pl_PL">
+<html lang="pl-PL">
     <head>
 
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Weather app</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&amp;subset=latin-ext" rel="stylesheet">
@@ -81,21 +81,21 @@
           </header>
         </div>
         <section class="main-content center">
-          <article class="main-content__info verticalAlign">
+          <div class="main-content__info verticalAlign">
             <div class="contener1">
-              <p class="text1">Get the most fun weather app</p>
+              <h1 class="text1">Get the most fun weather app</h1>
               <p class="text2">Simple, nice and user-friendly aplication of the weather. Only useful information</p>
               <div class="main-content__buttons">
                 <a href="#" class="button main-content__buttons--download verticalAlign">Download</a>
                 <a href="#" class="button main-content__buttons--features verticalAlign">Features</a>
               </div>
             </div>
-          </article>
-          <article class="main-content__phone">
+          </div>
+          <div class="main-content__phone">
             <div class="img">
 
             </div>
-          </article>
+          </div>
         </section>
         <a id="button" class="first-screen__buttonScrollDown"><span></span></a>
       </section>
@@ -109,21 +109,21 @@
             <div class="boxes__item boxes__item--first">
               <span class="item__img"></span>
               <div class="item__info">
-                <h2 class="info__title">Usability</h2>
+                <h3 class="info__title">Usability</h3>
                 <p class="info__text">Sometimes the simplest things are the hardest to find. So we created a new line for everyday life.</p>
               </div>
             </div>
             <div class="boxes__item boxes__item--second">
               <span class="item__img"></span>
               <div class="item__info">
-                <h2 class="info__title">Parallax Effect</h2>
+                <h3 class="info__title">Parallax Effect</h3>
                 <p class="info__text">Sometimes the simplest things are the hardest to find. So we created a new line for everyday life.</p>
               </div>
             </div>
             <div class="boxes__item boxes__item--third">
               <span class="item__img"></span>
               <div class="item__info">
-                <h2 class="info__title">Unlimited Colors</h2>
+                <h3 class="info__title">Unlimited Colors</h3>
                 <p class="info__text">Sometimes the simplest things are the hardest to find. So we created a new line for everyday life.</p>
               </div>
             </div>
@@ -138,9 +138,9 @@
           <div class="slider">
             <div class="carousel">
               <a href="#" id="prev" class="carouselButtons prev"><span></span></a>
-              <img src="images/Slider/image left.png" id="item-1.png" />
-              <img src="images/Slider/image center.png" id="item-2.png" />
-              <img src="images/Slider/image right.png" id="item-3.png" />
+              <img id="item-1.png" src="images/Slider/imageLeft.png" alt="Left slider's image" />
+              <img id="item-2.png" src="images/Slider/imageCenter.png" alt="Center slider's image" />
+              <img id="item-3.png" src="images/Slider/imageRight.png" alt="Right slider's image" />
               <a href="#" id="next" class="carouselButtons next"><span></span></a>
             </div>
           </div>
@@ -163,10 +163,10 @@
               <div class="description__box">
                 <div class="descripion__imgAndText">
                   <img class="description__img" src="images/cloudy.png" alt="cloud" />
-                  <h1 class="description__text1">When the clouds</h1>
+                  <h2 class="description__text1">When the clouds</h2>
                 </div>
-                <h2 class="description__text2">Variable information on the air humidity, the feeling of the weather, and the ability to share this with your friends</h2>
-                <img class="description__icons" src="images/icons cloudy.png" alt="icons" />
+                <p class="description__text2">Variable information on the air humidity, the feeling of the weather, and the ability to share this with your friends</p>
+                <img class="description__icons" src="images/iconsCloudy.png" alt="icons" />
             </div>
             </div>
           </article>
@@ -180,10 +180,10 @@
               <div class="description__box">
                 <div class="descripion__imgAndText">
                   <img class="description__img" src="images/sun.png" alt="cloud" />
-                  <h1 class="description__text1">When the sun</h1>
+                  <h2 class="description__text1">When the sun</h2>
                 </div>
-                <h2 class="description__text2">Sometimes the simplest things are the hardest to find. So we created a new line for everyday life. Sometimes the simplest</h2>
-                <img class="description__icons" src="images/icons cloudy.png" alt="icons" />
+                <p class="description__text2">Sometimes the simplest things are the hardest to find. So we created a new line for everyday life. Sometimes the simplest</p>
+                <img class="description__icons" src="images/iconsCloudy.png" alt="icons" />
               </div>
             </div>
           </article>
@@ -197,10 +197,10 @@
               <div class="description__box">
                 <div class="descripion__imgAndText">
                   <img class="description__img" src="images/rain.png" alt="cloud" />
-                  <h1 class="description__text1">When the rain</h1>
+                  <h2 class="description__text1">When the rain</h2>
                 </div>
-                <h2 class="description__text2">Sometimes the simplest things are the hardest to find. So we created a new line for everyday life. Sometimes the simplest</h2>
-                <img class="description__icons" src="images/icons cloudy.png" alt="icons" />
+                <p class="description__text2">Sometimes the simplest things are the hardest to find. So we created a new line for everyday life. Sometimes the simplest</p>
+                <img class="description__icons" src="images/iconsCloudy.png" alt="icons" />
               </div>
             </div>
           </article>
@@ -255,7 +255,7 @@
 
       <footer class="footer">
         <div class="footer__top">
-          <header class="header center">
+          <section class="header center">
             <a href="#" class="header__logo">Fun <span class="logo__color">Weather.</span></a>
             <nav class="header__nav">
               <ul class="menu">
@@ -287,7 +287,7 @@
                 <a href="http://twitter.com" class="header__social--tweeter">Tweeter</a>
               </li>
             </ul>
-          </header>
+          </section>
         </div>
         <div class="center align__rights">
           <p class="rights">© 2016 All rights reserved. Weather App Theme by Gravpix</p>
